@@ -4,7 +4,7 @@ COPYRIGHT LESTERRRY,
 2021
 
 '''''''''''''''''''''''''''''
-# Dependencies import
+import sys
 
 RED = "\033[31m"
 GRN = "\033[32m"
