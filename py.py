@@ -15,7 +15,7 @@ RES = "\033[0m"
 
 def my_except_hook(exctype, value, traceback):
 	if exctype is KeyboardInterrupt:
-		print(STRINGS['keyboard_interrupt'])
+		print("Q!")
 		return
 	print(f'{RED + BLD}FATAL:{RES} {value}')
 	exit(1)
