@@ -14,6 +14,9 @@ BLD = "\033[1m"
 RES = "\033[0m"
 
 def my_except_hook(exctype, value, traceback):
-	print(f"{RED + BLD}ERROR:{RES} {value}")
+	if exctype is KeyboardInterrupt:
+		print(STRINGS['keyboard_interrupt'])
+		return
+	print(f'{RED + BLD}FATAL:{RES} {value}')
 	exit(1)
 sys.excepthook = my_except_hook
