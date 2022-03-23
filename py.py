@@ -14,6 +14,6 @@ BLD = "\033[1m"
 RES = "\033[0m"
 
 def my_except_hook(exctype, value, traceback):
-	print(f'{RED + BLD}ERROR:{RES} {value}')
+	print(f"{RED + BLD}ERROR:{RES} {value}")
 	exit(1)
 sys.excepthook = my_except_hook
