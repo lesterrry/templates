@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 '''''''''''''''''''''''''''''
-COPYRIGHT LESTERRRY,
-2021
+COPYRIGHT LESTER COVEY (me@lestercovey.ml),
+2022
 
 '''''''''''''''''''''''''''''
 import sys
