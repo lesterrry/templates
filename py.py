@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-'''''''''''''''''''''''''''''
-COPYRIGHT LESTER COVEY (me@lestercovey.ml),
-2022
+# COPYRIGHT AYDAR N. (me@aydar.media)
+#
+# 2022
+#
 
-'''''''''''''''''''''''''''''
 import sys
 
 RED = "\033[31m"
