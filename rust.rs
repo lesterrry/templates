@@ -1,5 +1,7 @@
-/***************************
-COPYRIGHT LESTER COVEY (me@lestercovey.ml),
-2021
+/*************************
+Handcrafted by Aydar N.
+2022
 
-***************************/
+me@aydar.media
+
+*************************/
